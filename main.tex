@@ -5,6 +5,7 @@
 \usepackage{setspace}
 \usepackage{parskip}
 \usepackage{enumitem}
+\usepackage{lmodern}
 
 % Colors, links, headings, header/footer
 \usepackage[dvipsnames]{xcolor}
@@ -16,7 +17,7 @@
 \newcommand{\depname}{ECSE}
 \newcommand{\orgname}{ECSE Graduate Council}
 \newcommand{\orgshort}{ECSE GC}
-\newcommand{\doctitle}{Constitution of \\\orgname}
+\newcommand{\doctitle}{\orgname\ Bylaws}
 \newcommand{\docversion}{Version 1.0}
 \definecolor{Heading}{HTML}{D6001C}  % RPI red
 \definecolor{Rule}{HTML}{B22222}
@@ -25,7 +26,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \lhead{\textsc{\orgname}}
-\rhead{\textsc{Constitution}}
+\rhead{\textsc{Bylaws}}
 \cfoot{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\headrule}{\hbox to\headwidth{%
@@ -51,6 +52,9 @@
 % ---------- Utility macros ----------
 \newcommand{\Article}[2]{\section*{Article #1. #2}}
 \newcommand{\Sec}[1]{\subsection*{Section {#1}}}
+\newcommand{\titlerulecustom}{%
+  {\color{Rule}\rule{\textwidth}{1.2pt}}%
+}
 
 \begin{document}
 
@@ -59,8 +63,8 @@
   {\huge\bfseries\color{Heading}\doctitle\par}
   \vspace{0.5em}
   {\normalsize \docversion \par}
-  \vspace{0.5em}
-  \titlerule[1.2pt]\vspace{-0.3em}\titlerule
+  \vspace{0.1em}
+  \titlerulecustom
 \end{center}
 
 % ---------- Body ----------
@@ -80,14 +84,14 @@ The \orgshort{} exists to improve the graduate student experience within the Dep
 
 \Sec{2. Definition of Membership}
 \begin{enumerate}[label=\alph*)]
-    \item \textbf{Regular Members} are registered Rensselaer Polytechnic Institute (RPI) students who are enrolled in graduate programs offered by the \depname{} Department.
+    \item \textbf{Regular Members} are registered Rensselaer Polytechnic Institute (RPI) students who are enrolled in graduate programs offered by the \depname{} Department subject to a maximum of eight (8).
     \item \textbf{Associate Members} (non-voting) may include but not limited to \depname{} faculty/staff, \depname{} alumni, and non-\depname{} RPI students interested in supporting \orgshort{} activities.
 \end{enumerate}
 
 \Sec{3. Obtaining Membership}
 \begin{enumerate}[label=\alph*)]
-    \item To obtain Regular Membership, an eligible person must be nominated by any active grad student in the \depname{} department and must be voted in during regular annual elections.
-    \item Associate Membership may be granted through approval by the ECSE GC upon receipt of written request indicating such intent.
+    \item To obtain Regular Membership, an eligible person must be nominated by any active graduate student in the \depname{} department and must be voted in during regular annual elections.
+    \item Associate Membership may be granted through approval by the \orgshort{} upon receipt of written request indicating such intent.
 \end{enumerate}
 
 \Sec{4. Continued Membership}
@@ -107,7 +111,7 @@ Every regular member of \orgshort{} voted in during regular annual elections sha
 
 \Sec{7. Removal of Membership}
 \begin{enumerate}[label=\alph*)]
-    \item A member may be removed for failure to comply with this Constitution or \orgshort{} policy, violation of the Student Code of Conduct, or violation of RPI Handbook of Student Rights \& Responsibilities.
+    \item A member may be removed for failure to comply with these bylaws or \orgshort{} policy, violation of the Student Code of Conduct, or violation of RPI Handbook of Student Rights \& Responsibilities.
 
     \item \textbf{Process:} (i) A written complaint is submitted to the \orgshort{} voting membership; (ii) removal requires a two-thirds (2/3) vote of the \orgshort{} voting membership; (iv) notice of decision and appeal options is provided in writing within five (5) business days.
 \end{enumerate}
@@ -116,13 +120,12 @@ Every regular member of \orgshort{} voted in during regular annual elections sha
 
 \Sec{1. Officers and Duties}
 \begin{enumerate}
-    \item The \orgshort{} shall include at minimum a \textbf{President}, a \textbf{Secretary} and two \textbf{Student Representatives}. 
+    \item The \orgshort{} shall include at minimum a \textbf{President}, a \textbf{Secretary} and two \textbf{Officers}. 
     \item \textbf{President:} It shall be the President's duty to lead the \orgshort{}, set agendas, represent graduate students to \depname{} leadership and Institute bodies, and ensure alignment with the \orgshort{} purpose. The \orgshort{} President may also appoint the following roles to reflect \orgshort{} activities and needs
 \begin{itemize}
     \item \textbf{Vice President:} Supports the President; oversees committees; manages internal operations and succession planning.
     \item \textbf{Events Coordinator(s):} Plans social/professional events that build cross-group interactions (e.g., mixers, seminars); coordinates logistics and evaluations.
     \item \textbf{Publicity \& Communications Coordinator (s):} Manages outreach (email, flyers, social); maintains web/CMS presence.
-    \item \textbf{Student Representatives:} Interfaces with \depname{} departmental leadership to surface student concerns and opportunities.
 \end{itemize}
 \end{enumerate}
 \Sec{2. Eligibility for Office}
@@ -136,12 +139,12 @@ Every regular member of \orgshort{} voted in during regular annual elections sha
 \begin{enumerate}[label=\alph*)]
     \item Elections shall be held at least once per academic year, typically in early November for terms beginning in the subsequent week of elections.
     \item \textbf{Process:} (i) Graduate Program Assistant announces the election timeline at least two (2) weeks in advance; (ii) nominations open for one (1) week and may be self-nominations; (iii) candidates submit a short statement; (iv) voting occurs at a General Meeting or via secured online ballot open for 48 hours; (v) simple majority elects; (vi) ties are resolved by a runoff between tied candidates.
-    \item Any member who suspects unfair conduct shall notify the Graduate Program Assistant/Secretary for further scrutiny.
+    \item Any member who suspects unfair conduct shall notify the Graduate Program Assistant for further scrutiny.
 \end{enumerate}
 
 \Sec{4. Removal from Office}
 \begin{enumerate}[label=\alph*)]
-    \item An officer may be removed for failure to perform duties, failure to comply with this Constitution or \orgshort{} policy, violation of the Student Code of Conduct, or violation of \depname{} Department policies.
+    \item An officer may be removed for failure to perform duties, failure to comply with these bylaws or \orgshort{} policy, violation of the Student Code of Conduct, or violation of \depname{} Department policies.
     \item \textbf{Process:} (i) Written petition by at least five (5) Regular Members or a majority of the \orgshort{}; (ii) discussion at a special meeting with at least five (5) days' notice; (iii) removal requires two-thirds (2/3) vote of Regular Members present and voting, provided quorum is met.
 \end{enumerate}
 
@@ -163,22 +166,22 @@ Every regular member of \orgshort{} voted in during regular annual elections sha
 
 \Sec{1. Availability}
 \begin{enumerate}[label=\alph*)]
-    \item All policies, standing rules, and by-laws shall be available to any Activity-Fee-paying student or interested member upon request and shall be published wherever this Constitution is published. This Constitution must be published on CMS, the \orgshort{} website, and on file with the \depname{} department administration.
+    \item All policies, standing rules, and by-laws shall be available to any Activity-Fee-paying student or interested member upon request and shall be published wherever these bylaws are published. These bylaws must be published on the \orgshort{} website, and on file with the \depname{} department administration.
 \end{enumerate}
 
 \Article{VII}{Ratification and Amendments}
 
 \Sec{1. Supremacy Clause}
-If any part of this Constitution violates or contradicts the policies of Rensselaer, the Rensselaer Union, or applicable laws, the contradictory parts are invalid.
+If any part of these bylaws violates or contradicts the policies of Rensselaer, the Rensselaer Union, or applicable laws, the contradictory parts are invalid.
 
 \Sec{2. Ratification}
 \begin{enumerate}[label=\alph*)]
-    \item This Constitution shall be effective immediately upon ratification by a two-thirds (2/3) majority of members with voting rights and subsequent approval of the \depname{} department administration.
+    \item These bylaws shall be effective immediately upon ratification by a two-thirds (2/3) majority of members with voting rights and subsequent approval of the \depname{} department administration.
     \item Amendments require a two-thirds (2/3) vote of members with voting rights present at the amendment meeting and subsequent approval by the \depname{} department administration.
 \end{enumerate}
 
 \Sec{3. Abrogation}
-Upon adoption, this Constitution abrogates previous governing documents relating to the \orgshort{} without disrupting officers currently serving terms validly elected under a prior constitution.
+Upon adoption, these bylaws abrogates previous governing documents relating to the \orgshort{} without disrupting officers currently serving terms validly elected under a prior set of bylaws.
 
 \vfill
 \noindent\textit{Notes to personalize before submission:} (1) Add dues amount or ``set annually by vote,'' (2) adjust election dates if needed, (3) tune quorum thresholds to expected size, (4) merge or split officer roles to fit the team.
