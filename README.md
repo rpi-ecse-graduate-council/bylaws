@@ -1,6 +1,6 @@
-# How to Edit the ECSE GC Constitution
+# How to Edit the ECSE GC Bylaws
 
-Welcome! This guide explains how to edit these bylaws even if you've never used LaTeX before. Don't worry—it's actually quite simple.
+Welcome! This guide explains how to edit the bylaws even if you've never used LaTeX before. Don't worry—it's actually quite simple.
 
 ---
 
@@ -206,6 +206,14 @@ That's it! No special formatting needed.
 1. Save your changes (Ctrl+S or Cmd+S)
 2. Send the updated `main.tex` file to your team
 3. Someone compiles it to PDF for official use
+
+---
+
+## 📄 The Compiled Bylaws PDF
+
+Once compiled, the PDF bylaws document can be found in the [GitHub Releases](https://github.com/rpi-ecse-graduate-council/bylaws/releases) or check with the ECSE Graduate Council for the official published version.
+
+---
 
 That's all you need to know! The bylaws editing is that simple.
 
