@@ -1,3 +1,11 @@
+% ============================================================================
+% BYLAWS DOCUMENT - Main editable file
+% ============================================================================
+% To edit: Update \Article and \Sec sections with your content
+% To rebrand: Modify the "Branding / quick tweaks" section (lines 16-23)
+% To change colors: Edit the \definecolor lines (hex color codes)
+% ============================================================================
+
 \documentclass[11pt]{article}
 
 % Layout & typography
@@ -14,6 +22,7 @@
 \usepackage{fancyhdr}
 
 % ---------- Branding / quick tweaks ----------
+% EDIT: Update these values for your organization
 \newcommand{\depname}{ECSE}
 \newcommand{\orgname}{ECSE Graduate Council}
 \newcommand{\orgshort}{ECSE GC}
@@ -68,6 +77,8 @@
 \end{center}
 
 % ---------- Body ----------
+% Structure: \Article{ROMAN}{Title} for sections, \Sec{number. Title} for subsections
+% List items use enumerate environment with [label=\alph*)] for a), b), c)
 \Article{I}{Name}
 The name of this organization shall be the \textbf{\orgname} (hereafter, the \textbf{\orgshort}).
 
